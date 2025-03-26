@@ -264,6 +264,8 @@ namespace AvaloniaApplication.ViewModels
 
         /// <summary>Вывод диалогового окна с сообщением.</summary>
         /// <param name="message">Сообщение.</param>
+        /// <param name="width">Ширина окна.</param>
+        /// <param name="height">Высота окна.</param>
         private void ShowMessageDialog(string message, int width = 200, int height = 100)
         {
             if (App.Current?.ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop
